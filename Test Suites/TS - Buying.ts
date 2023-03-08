@@ -16,53 +16,62 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC - Buying</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>583ac8da-9dc9-43ed-abb7-186f7630ad9a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data Mobile</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>8be46c3d-78ce-4f06-8fba-eab9ed8f5334</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>56d18222-9ec7-4986-b315-dd13041d54f9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>login_pass</value>
          <variableId>2cfe78d9-9b87-4d52-90c2-4701b1322d37</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item_1</value>
          <variableId>3b48f706-666d-41e3-97d1-5a10eaf7a0a7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item_2</value>
          <variableId>ea46186e-19d5-4c8c-b527-1bc6fc3a2d0e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
          <variableId>70a9db1c-a2bb-47c9-8634-10c098a66078</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
          <variableId>0d14d3dd-7f04-4827-9acc-af462acbc481</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>583ac8da-9dc9-43ed-abb7-186f7630ad9a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postal_code</value>
          <variableId>0d45ca8c-6717-4242-90ce-17bb640a3270</variableId>
       </variableLink>
    </testCaseLink>

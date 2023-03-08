@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bs://c5dfa5fed9bdf8bbbf1d51c587e46521948ab501'</initValue>
+      <name>app_path</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

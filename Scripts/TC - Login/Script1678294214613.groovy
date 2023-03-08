@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('bs://c5dfa5fed9bdf8bbbf1d51c587e46521948ab501', true)
+Mobile.startApplication(GlobalVariable.app_path, true)
 
-Mobile.setText(findTestObject('SWAG - Login/android.widget.EditText - Username'), 'standard_user', 0)
+Mobile.setText(findTestObject('SWAG - Login/android.widget.EditText - Username'), tc_username, 0)
 
-Mobile.setText(findTestObject('SWAG - Login/android.widget.EditText - Password'), 'secret_sauce', 0)
+Mobile.setText(findTestObject('SWAG - Login/android.widget.EditText - Password'), tc_password, 0)
 
 Mobile.tap(findTestObject('SWAG - Login/btn_login'), 0)
 
-Mobile.verifyElementText(findTestObject('SWAG - Login/android.widget.TextView - PRODUCTS'), 'PRODUCTS')
-
-if (true) {
+if (tc_login_pass == 'yes') {
+    Mobile.verifyElementText(findTestObject('SWAG - Login/android.widget.TextView - PRODUCTS'), 'PRODUCTS')
 }
 
