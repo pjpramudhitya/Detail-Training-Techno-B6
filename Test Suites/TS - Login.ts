@@ -17,5 +17,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78408fb8-2f9b-4a8a-afce-e4c83a84eab0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dfa243ab-c9ec-49a1-ae76-1f684730f937</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
