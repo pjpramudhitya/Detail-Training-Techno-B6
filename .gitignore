@@ -1,6 +1,0 @@
-*.class
-*.swp
-Libs/TempTestCase*
-Libs/TempTestSuite*
-bin/lib/TempTestCase*
-Reports/
