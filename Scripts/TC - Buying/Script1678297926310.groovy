@@ -73,5 +73,7 @@ if (tc_login_pass == 'yes') {
     Mobile.tap(findTestObject('SWAG - Buying/btn_back_home'), 0)
 
     Mobile.closeApplication()
+} else {
+    Mobile.closeApplication()
 }
 
