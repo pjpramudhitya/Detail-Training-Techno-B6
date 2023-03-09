@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('SWAG - Login/btn_login'), 0)
 
 if (tc_login_pass == 'yes') {
     Mobile.verifyElementText(findTestObject('SWAG - Login/android.widget.TextView - PRODUCTS'), 'PRODUCTS')
-} else {
-    Mobile.closeApplication()
 }
+
+Mobile.closeApplication()
 

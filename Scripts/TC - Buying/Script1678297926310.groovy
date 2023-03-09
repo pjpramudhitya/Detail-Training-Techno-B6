@@ -18,9 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 if (tc_login_pass == 'yes') {
-    WebUI.callTestCase(findTestCase('TC - Login'), [('tc_login_pass') : tc_login_pass, ('tc_password') : tc_password, ('tc_username') : tc_username], 
-        FailureHandling.STOP_ON_FAILURE)
+    Mobile.startApplication(GlobalVariable.app_path, true)
 
+    Mobile.setText(findTestObject('SWAG - Login/android.widget.EditText - Username'), tc_username, 0)
+
+    Mobile.setText(findTestObject('SWAG - Login/android.widget.EditText - Password'), tc_password, 0)
+
+    Mobile.tap(findTestObject('SWAG - Login/btn_login'), 0)
+
+    //WebUI.callTestCase(findTestCase('TC - Login'), [('tc_login_pass') : tc_login_pass, ('tc_password') : tc_password, ('tc_username') : tc_username], FailureHandling.STOP_ON_FAILURE)
     if ((tc_item_1 == 'Sauce Labs Backpack') || (tc_item_2 == 'Sauce Labs Backpack')) {
         Mobile.tap(findTestObject('Object Repository/SWAG - Buying/add_backpack'), 0)
 
@@ -42,8 +48,9 @@ if (tc_login_pass == 'yes') {
     }
     
     if ((tc_item_1 == 'Sauce Labs Onesie') || (tc_item_2 == 'Sauce Labs Onesie')) {
-        Mobile.swipe(0, 2000, 0, 160)
+        Mobile.scrollToText('Sauce Labs Onesie', FailureHandling.STOP_ON_FAILURE)
 
+        Mobile.swipe(0, 2000, 0, 200)
         Mobile.tap(findTestObject('Object Repository/SWAG - Buying/add_onesie'), 0)
 
         Mobile.scrollToText('Sauce Labs Backpack', FailureHandling.STOP_ON_FAILURE)
@@ -71,9 +78,7 @@ if (tc_login_pass == 'yes') {
     Mobile.tap(findTestObject('Object Repository/SWAG - Buying/btn_finish'), 0)
 
     Mobile.tap(findTestObject('SWAG - Buying/btn_back_home'), 0)
-
-    Mobile.closeApplication()
-} else {
-    Mobile.closeApplication()
 }
+
+Mobile.closeApplication()
 
